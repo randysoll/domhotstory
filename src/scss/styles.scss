@@ -1,0 +1,50 @@
+@import "reset";
+@import "variables";
+@import "base";
+@import "utilities";
+@import "components/case-study";
+@import "components/button";
+@import "components/check-list";
+@import "partials/header";
+@import "partials/footer";
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #252322;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+// content area
+.main {
+  flex: 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1em;
+
+  @media (max-width: 1024px) {
+    max-width: 1024px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 0.5em;
+  }
+}
+
+.front-banner {
+  max-height: 20em;
+}
+
+.highlight {
+  color: #e2610a;
+}

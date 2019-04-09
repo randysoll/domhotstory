@@ -1,0 +1,7 @@
+{
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontSize": 16
+}

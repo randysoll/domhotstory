@@ -1,0 +1,124 @@
+---
+layout: blog
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136522557-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-136522557-1');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
+  <link rel="canonical" href="http://example.com/">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="http://example.com/feed.xml">
+  <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
+</head>
+
+<body>
+  {% include header.html %}
+
+  <h4 class="center c-white">{{page.title}}</h4>
+
+  <section class="main" style="max-width: 1024px">
+
+    <!-- Pagination links top -->
+    <div class="flex">
+      {% if paginator.previous_page %}
+      <a href="{{site.baseurl}}{{ paginator.previous_page_path }}" class="pr-25">
+        <h5>&laquo;</h5>
+      </a>
+      {% else %}
+      <h5 class="pr-25">&laquo;</h5>
+      {% endif %}
+
+      {% if paginator.previous_page %}
+      <a class="px-25" href="{{site.baseurl}}{{ paginator.previous_page_path }}">
+        <h5>{{ paginator.previous_page }}</h5>
+      </a>
+      {% endif %}
+
+      <h5 class="px-25">
+        {{ paginator.page }}
+      </h5>
+
+      {% if paginator.next_page %}
+      <a class="px-25" href="{{site.baseurl}}{{ paginator.next_page_path }}">
+        <h5>{{ paginator.next_page }}</h5>
+      </a>
+      {% endif %}
+
+      {% if paginator.next_page %}
+      <a href="{{site.baseurl}}{{ paginator.next_page_path }}" class="pl-25">
+        <h5>&raquo;</h5>
+      </a>
+      {% else %}
+      <h5 class="pl-25">&raquo;</h5>
+      {% endif %}
+    </div>
+
+    {% for post in paginator.posts %}
+    <section class="my-1">
+      <a href="{{site.baseurl}}{{ post.permalink }}">
+        <h4 class="c-green">{{ post.title }}</h4>
+      </a>
+      <h6>
+        {{ post.content | truncatewords: 100 }}
+      </h6>
+      <h5><a href="{{site.baseurl}}{{ post.url }}">keep reading...</a></h5>
+    </section>
+    {% endfor %}
+
+    <!-- Pagination links bottom -->
+    <div class="flex">
+      {% if paginator.previous_page %}
+      <a href="{{site.baseurl}}{{ paginator.previous_page_path }}" class="pr-25">
+        <h5>&laquo;</h5>
+      </a>
+      {% else %}
+      <h5 class="pr-25">&laquo;</h5>
+      {% endif %}
+
+      {% if paginator.previous_page %}
+      <a class="px-25" href="{{site.baseurl}}{{ paginator.previous_page_path }}">
+        <h5>{{ paginator.previous_page }}</h5>
+      </a>
+      {% endif %}
+
+      <h5 class="px-25">
+        {{ paginator.page }}
+      </h5>
+
+      {% if paginator.next_page %}
+      <a class="px-25" href="{{site.baseurl}}{{ paginator.next_page_path }}">
+        <h5>{{ paginator.next_page }}</h5>
+      </a>
+      {% endif %}
+
+      {% if paginator.next_page %}
+      <a href="{{site.baseurl}}{{ paginator.next_page_path }}" class="pl-25">
+        <h5>&raquo;</h5>
+      </a>
+      {% else %}
+      <h5 class="pl-25">&raquo;</h5>
+      {% endif %}
+    </div>
+
+  </section>
+
+  {% include footer.html %}
+</body>
+
+</html>

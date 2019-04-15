@@ -3,6 +3,7 @@ $html-font-size-md: 15px;
 $html-font-size-sm: 14px;
 $html-font-size-xs: 13px;
 
+$paragraph-font-size-xl: 20px;
 $paragraph-font-size-lg: 18px;
 $paragraph-font-size-md: 16px;
 $paragraph-font-size-sm: 14px;
@@ -32,18 +33,15 @@ html {
 }
 
 p {
-  font-size: $paragraph-font-size-lg;
+  margin-bottom: 0.75em;
+  font-size: $paragraph-font-size-xl;
   
-  @media (max-width: 1024px) {
+  @media (max-width: 640px) {
       font-size: $paragraph-font-size-md;
   }
   
-  @media (max-width: 640px) {
-      font-size: $paragraph-font-size-sm;
-  }
-  
   @media (max-width: 480px) {
-      font-size: $paragraph-font-size-xs;
+      font-size: $paragraph-font-size-sm;
   }
 }
 

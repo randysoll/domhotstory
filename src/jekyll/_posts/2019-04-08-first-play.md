@@ -20,7 +20,7 @@ She asked if i would be interested in serving her the way i described, alogn wit
 She said that she was actually in this lifestyle and not only doing this for donation, but because she likes doing it and has a lot of experience and passion.
 
 I wanted to double check if we understood each other right, because i knew that there is a lot of "Pro Dommes" that are actually  doing only "clothed" sessions (which means they remain dressed and only may facesit you or verbally dominate), which i was not interested in, and she sent me back some very sexy GIFs with fully naked women riding guys faces and she added:
-- "That it was a level of the game she is looking for".
+- "That it was a level of the game I am looking for".
 
 I gotta say it got me very excited and horny, i was hard withing a few seconds an of course aggreed to book a session, the i asked for her photo, she sent me one, very plain, nothing exciting, but also good looking photo i guess.
 

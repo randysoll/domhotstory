@@ -32,12 +32,10 @@ layout: post
 
     {% include header.html %}
 
-    <div class="page">
-        <section class="l-centered">
-            <h4>{{ page.title }}</h4>
-        </section>
-        {{ content }}
-    </div>
+    <section class="main">
+        <h4>{{ page.title }}</h4>
+        <div class="left">{{ content }}</div>
+    </section>
 
     {% include footer.html %}
 </body>

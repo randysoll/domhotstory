@@ -1,5 +1,5 @@
 {
-  "name": "web-approach-corp",
+  "name": "femdomheat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,13 +13,19 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-sass": "^3.0.0",
-    "gulp-shell": "^0.7.0",
-    "natives": "^1.1.6"
+    "cp": "^0.2.0",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.7.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "pngquant-bin": "^5.0.2"
   },
   "dependencies": {
-    "bootstrap": "^4.1.3"
+    "bootstrap": "^4.3.1"
   }
 }
